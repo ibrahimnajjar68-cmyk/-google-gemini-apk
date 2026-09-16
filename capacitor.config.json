@@ -3,7 +3,7 @@
   "appName": "‏Google Gemini",
   "webDir": "www",
   "server": {
-    "url": "https://gemini.google.com/?hl=ar",
+    "url": "https://hzn-1.base44.app/",
     "cleartext": false,
     "androidScheme": "https",
     "allowNavigation": [
