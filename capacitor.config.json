@@ -1,0 +1,35 @@
+{
+  "appId": "com.google.google",
+  "appName": "‏Google Gemini",
+  "webDir": "www",
+  "server": {
+    "url": "https://gemini.google.com/?hl=ar",
+    "cleartext": false,
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#000000",
+    "webContentsDebuggingEnabled": false,
+    "captureInput": true,
+    "useLegacyBridge": false
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    },
+    "SplashScreen": {
+      "backgroundColor": "#000000",
+      "launchAutoHide": true,
+      "launchShowDuration": 700,
+      "androidScaleType": "FIT_CENTER",
+      "showSpinner": false
+    }
+  }
+}
